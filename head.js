@@ -10,7 +10,7 @@ const assertEqual = function(actual, expected) {
 
   const head = function(arr) {
     
-    if (arr = []) {
+    if (arr.legnth === 0) {
         return undefined;
     } else {
         return arr[0];
