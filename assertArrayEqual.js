@@ -1,4 +1,4 @@
-const eqArrays = function(arr1, arr2) {
+const assertArraysEqual = function(arr1, arr2) {
     
   
 	if (arr1.length !== arr2.length) console.log("Arrays are not an equal length!");
@@ -14,4 +14,4 @@ const eqArrays = function(arr1, arr2) {
 
 }
 
-eqArrays([1, 2, 3], [1,2,3]);
+assertArraysEqual([1, 2, 3], [1,2,3]);
