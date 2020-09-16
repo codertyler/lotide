@@ -14,20 +14,6 @@ const letterPositions = function(sentence) {
   }
 
 
-  // for (const letter of sentence) {
-
-  //   if (letter !== " ") {
-  //     results[letter] = [];
-  //     if (results[letter]) {
-  //       results[letter].push(sentence.indexOf(letter));
-  //     } 
-  //   }
-    
-    
-
-
-
-  // logic to update results here
   return results;
 };
 
