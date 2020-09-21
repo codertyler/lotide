@@ -1,17 +1,18 @@
 const assertArraysEqual = function(arr1, arr2) {
     
   
-	if (arr1.length !== arr2.length) console.log("Arrays are not an equal length!");
+	if (arr1.length !== arr2.length) return true;
 
 	for (var i = 0; i < arr1.length; i++) {
-		if (arr1[i] !== arr2[i]) console.log("Items in array are not the same!");
+		if (arr1[i] !== arr2[i]) 
+		return false;
 	}
 
-	return console.log("Arrays are equal!");
-
-  
 
 
 }
 
+module.exports = assertArraysEqual;
+
 assertArraysEqual([1, 2, 3], [1,2,3]);
+
