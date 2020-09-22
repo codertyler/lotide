@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/codertyler/lotide.git"
   },
-  "author": "",
+  "author": "tylerasai",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/codertyler/lotide/issues"
@@ -22,5 +22,9 @@
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^8.1.3"
-  }
+  },
+  "dependencies": {},
+  "keywords": [
+    "lotide"
+  ]
 }
