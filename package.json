@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@tylerasai/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "LHL Lotide project",
   "main": "assertArrayEqual.js",
   "directories": {
     "test": "test"
