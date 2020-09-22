@@ -15,19 +15,14 @@ const takeUntil = rqequire('./takeUntil');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  assertEqual: assertEqual,
-  assertObjectsEqual: assertObjectsEqual,
-  countLetters: countLetters,
-  eqArrays: eqArrays,
-  eqObjects: eqObjects,
-  findKey: findKey,
-  takeUntil: takeUntil
-
-
-
-
-
+  head, 
+  tail,
+  middle,
+  assertEqual,
+  assertObjectsEqual,
+  countLetters,
+  eqArrays,
+  eqObjects,
+  findKey,
+  takeUntil
 };
