@@ -1,10 +1,11 @@
 const eqArrays = require('../eqArrays');
-const assertEqual = require('../assertEqual');
+const assert = require('chai').assert;
 
-const cd = { c: "1", d: ["2", 3] };
-const cd2 = { c: "1", d: ["2", 3, 4] };
-const cd3 = { d: ["2", 3], c: "1" };
+describe("#head", () => {
+  it("returns true for [1, 2, 3], [1, 2, 3]", () => {
+    assert.strictEqual(eqArrays([1, 2, 3], [1, 2, 3]), true);
+  });
 
-assertEqual(eqArrays(cd.d, cd2.d), false);
-assertEqual(eqArrays(cd.d, cd3.d), true);
+});
+
 
